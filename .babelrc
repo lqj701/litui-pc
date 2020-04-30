@@ -1,0 +1,15 @@
+{
+  "presets": [["es2015", { "modules": false }], "react", "stage-2"],
+  "plugins": [
+    "transform-react-jsx",
+    "react-hot-loader/babel",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": "css"
+      }
+    ]
+  ]
+}

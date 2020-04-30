@@ -1,0 +1,7 @@
+# 自动生成的文件
+.idea/
+node_modules/
+dist/
+
+# 只在本地保存
+config/servers/local.json
